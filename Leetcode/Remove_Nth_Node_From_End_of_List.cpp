@@ -128,3 +128,13 @@ int main() {
     }
     return 0;
 }
+
+/*
+sample i/o:
+input: 
+[1,2,3,4,5]
+2
+op:
+[1,2,3,5]
+
+*/
