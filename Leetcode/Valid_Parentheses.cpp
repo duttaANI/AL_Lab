@@ -84,7 +84,19 @@ int main() {
     return 0;
 }
 
+/*
+sample i/o:
+"()"
+True
+"{{{[[]]}}}"
+True
+"{}[]{()}"
+True
+"{}[[)]"
+False
 
+
+*/
 
 
 /*
