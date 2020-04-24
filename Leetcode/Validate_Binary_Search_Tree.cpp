@@ -14,6 +14,18 @@ struct TreeNode {
     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
  };
  
+
+class Solution {
+public:
+   bool isValidBST(TreeNode* root, TreeNode* min=NULL, TreeNode* max=NULL) {
+        if (!root) return true;
+        if (min != NULL && root->val <= min->val) return false;
+        if (max != NULL && root->val >= max->val) return false;
+        return isValidBST(root->left, min, root) && isValidBST(root->right, root, max);
+    }
+};
+/*
+above approach is same as
 class Solution {
 public:
     bool isBST(TreeNode* root,int min, int max)
@@ -30,7 +42,7 @@ public:
     bool isValidBST(TreeNode* root) {
         return isBST(root,-2147483648,2147483647);
     }
-};
+};*/
 
 void trimLeftTrailingSpaces(string &input) {
     input.erase(input.begin(), find_if(input.begin(), input.end(), [](int ch) {
