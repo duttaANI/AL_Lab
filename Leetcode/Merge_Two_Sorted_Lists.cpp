@@ -19,18 +19,20 @@ public:
         ListNode* ans_head = NULL;
         ListNode* temp = NULL;
 
-        if     ( (l1 && !l2) || (l1 && l2 && (l1->val<=l2->val) ) )
+        if     ( (l1 && !l2) || (l1 && l2 && (l1->val<l2->val) ) )
         {
             ans_head = new ListNode(l1->val);
             l1=l1->next;
+            temp = ans_head;
         }
         else if( (l2 && !l1) || (l2 && l1 && (l2->val<=l1->val) ) )
         {
             ans_head = new ListNode(l2->val);
             l2=l2->next;
+            temp = ans_head;
         }
 
-        temp = ans_head;
+        
 
         while(l1!=NULL && l2!=NULL)
         {
@@ -48,13 +50,18 @@ public:
             }
         }
 
-        ListNode* remain = NULL;
-        remain = (l1)? l1:( (l2)? l2:NULL);
-
-        while(remain)
+        while(l1)
         {
-            temp->next = new ListNode(remain->val);
+            temp->next = new ListNode(l1->val);
             temp = temp->next;
+            l1=l1->next;
+        }
+
+        while(l2)
+        {
+            temp->next = new ListNode(l2->val);
+            temp = temp->next;
+            l2=l2->next;
         }
 
         return ans_head;
