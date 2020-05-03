@@ -11,7 +11,7 @@ public:
         int lastPos = nums.size()-1;
         for(int i=lastPos;i>=0;i--)
         {
-            if(nums[i] >= lastPos-i )
+            if(nums[i]+i >= lastPos )
             {
                 lastPos = i;
             }
