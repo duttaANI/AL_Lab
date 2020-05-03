@@ -11,7 +11,7 @@ public:
         int lastPos = nums.size()-1;
         for(int i=lastPos;i>=0;i--)
         {
-            if(nums[i]+i >= lastPos )
+            if(nums[i]+i >= lastPos ) // nums[i] is max jump and nums[i] + i is max index we can reach from ith index
             {
                 lastPos = i;
             }
