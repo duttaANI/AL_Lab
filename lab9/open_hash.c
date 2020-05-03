@@ -1,3 +1,4 @@
+// refer link: https://www.log2base2.com/algorithms/searching/open-hashing.html
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -80,3 +81,14 @@ int main()
 
     return 0;
 }
+/*
+sample i/o:
+chain[0]-->7 -->0 -->NULL
+chain[1]-->NULL
+chain[2]-->NULL
+chain[3]-->3 -->10 -->NULL
+chain[4]-->4 -->NULL
+chain[5]-->5 -->NULL
+chain[6]-->NULL
+
+*/
