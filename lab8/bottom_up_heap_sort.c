@@ -78,3 +78,16 @@ void main()
 		printf("%d\t",h[i] );
 	}
 }
+
+/*
+sample i/o:
+Enter the no of ele:
+6
+Enter ele:
+1 6 5 9 10 12
+array is:
+1	6	5	9	10	12	
+heap after sorting is: 
+1	5	6	9	10	12	
+
+*/
