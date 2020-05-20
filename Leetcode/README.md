@@ -17,3 +17,11 @@ Longest_Valid_Parentheses.cpp
 ## 2. Kadanes's Algo
 
 Maximum_Subarray.cpp
+
+## 3. Game Theory
+
+PredicttheWinner.cpp (MinMax Algo)
+
+## 4. Graph
+
+Course_Schedule.cpp (Topological sort)
