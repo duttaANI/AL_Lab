@@ -14,6 +14,8 @@ Maximal_Square.cpp
 
 Longest_Valid_Parentheses.cpp
 
+Coin_Change.cpp
+
 ## 2. Kadanes's Algo
 
 Maximum_Subarray.cpp
