@@ -35,3 +35,17 @@ Word_Search.cpp (DFS)
 ## 5. Djikstra's Algo
 
 934_ShortestBridge.cpp (DFS + Flood Fill + Expand)
+
+## 6. Two Pointer
+
+15_3Sum.cpp
+
+Container_With_Most_Water.cpp
+
+Shortest_Unsorted_Continuous_Subarray.cpp
+
+## 7. Floyd's Tortoise and Hare
+
+Intersection_of_Two_Linked_Lists.cpp
+
+Linked_List_Cycle.cpp
