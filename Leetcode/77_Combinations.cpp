@@ -1,4 +1,5 @@
 // link: https://leetcode.com/problems/combinations/discuss/27111/My-shortest-c%2B%2B-solutionusing-dfs
+// https://www.geeksforgeeks.org/print-all-possible-combinations-of-r-elements-in-a-given-array-of-size-n/
 class Solution {
 public:
     void dfs(vector<vector<int>>& ans, vector<int>& temp, int start, int temp_size, int n, int k) {
