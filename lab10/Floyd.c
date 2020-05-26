@@ -9,7 +9,7 @@ void floyds(int adj_mat[V][V],int n)
 {
   int i,j,k;
 
-  for(k=0;k<n;k++)
+  for(k=0;k<n;k++)  // for traversing all nodes
     for(i=0;i<n;i++)
       for(j=0;j<n;j++)
         if(i==j) adj_mat[i][j]=0;
