@@ -9,4 +9,4 @@ Transitive closure of a graph. Given a directed graph, find out if a vertex j is
 
 # Reference
 
-(GeeksForGeeks)[https://www.geeksforgeeks.org/transitive-closure-of-a-graph/]
+[GeeksForGeeks](https://www.geeksforgeeks.org/transitive-closure-of-a-graph/)
