@@ -1,6 +1,7 @@
 ### Floyds Algo 
 
 **All Pair shortest Path Algorithm** __for directional weighted graph as adj matrix__ 
+gives shortest path between two nodes of graph
 
 ### Warshall Algo
 
