@@ -32,7 +32,9 @@ Jump_Game_II.cpp (BFS)
 
 Word_Search.cpp (DFS)
 
-785_IsGraphBipartite?.cpp (DFS + color)
+785_IsGraphBipartite?.cpp (DFS + color).
+A disconnected graph  can be bipartite.
+
 
 ## 5. Djikstra's Algo
 
