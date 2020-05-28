@@ -15,11 +15,11 @@ public:
         //cout << y_idx << "y_idx\n";
         
         // perform weighted union
-        if ( xr < yr && yr<0) {
+        if ( xr < yr ) {
            
             parent[x_idx] = xr + yr;
             parent[y_idx] = x_idx;         // collapsing path
-        } else if ( yr < xr && xr<0) {
+        } else if ( yr < xr ) {
            
             parent[y_idx] = xr + yr;
             parent[x_idx] = y_idx;
