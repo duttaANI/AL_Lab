@@ -16,6 +16,8 @@ Longest_Valid_Parentheses.cpp
 
 Coin_Change.cpp
 
+312_Burst Balloons.cpp
+
 ## 2. Kadanes's Algo
 
 Maximum_Subarray.cpp
