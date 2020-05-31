@@ -69,3 +69,11 @@ Find_the_Duplicate_Number.cpp
 217_ContainsDuplicate.cpp
 
 78_Subsets.cpp
+
+## 9. Tree
+
+Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.cpp
+
+Validate_Binary_Search_Tree.cpp
+
+Unique_Binary_Search_Trees.cpp (Catalan Number)
