@@ -77,3 +77,5 @@ Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.cpp
 Validate_Binary_Search_Tree.cpp
 
 Unique_Binary_Search_Trees.cpp (Catalan Number)
+
+236_LowestCommonAncestorofaBinaryTree.cpp
