@@ -31,6 +31,7 @@ void quickSort( int*A ,int Abegin,int i, int j, int Aend)
                 
 //                 printf("\nAbegin=%d i=%d j=%d Aend=%d\n",Abegin,i,j,Aend);
 //                 printf("\n------------------------------------------------------\n");
+            printf("\ni=%d j=%d\n",i,j);
 	    	quickSort(A,Abegin,i+1     ,j-1 ,Aend);
 	    }
 	    else // partition happens
@@ -39,7 +40,7 @@ void quickSort( int*A ,int Abegin,int i, int j, int Aend)
                 
                 //printf("\nAbegin=%d i=%d j=%d Aend=%d\n",Abegin,i,j,Aend);
                 printf("\n------------------------------------------------------\n");
-		printf("l1=%d u1=%d p=%d l2=%d u2=%d",Abegin,j-1,j,i,Aend);
+		printf("l1=%d u1=%d p=%d l2=%d u2=%d i=%d j=%d",Abegin,j-1,j,i,Aend,i,j);
 	    	quickSort(A,Abegin,Abegin+1,j-1 ,j-1 );
 	    	quickSort(A,i     ,i+1     ,Aend,Aend);
 	    }
@@ -70,3 +71,40 @@ int main()
 	}
 	return 0;
 }
+
+/* sample i/o:
+
+input :7
+ 2 7 6 3 1 5 4
+ 
+ output:
+ Enter size :
+Enter arr to be sorted:
+
+swapping 7 and 1
+
+i=1 j=4
+
+swapping 2 and 1
+
+------------------------------------------------------
+l1=0 u1=0 p=1 l2=2 u2=6 i=2 j=1
+swapping 7 and 4
+
+i=4 j=6
+
+swapping 6 and 5
+
+------------------------------------------------------
+l1=2 u1=4 p=5 l2=6 u2=6 i=6 j=5
+swapping 5 and 4
+
+------------------------------------------------------
+l1=2 u1=3 p=4 l2=4 u2=4 i=4 j=4
+swapping 4 and 3
+
+------------------------------------------------------
+l1=2 u1=2 p=3 l2=3 u2=3 i=3 j=3 sorted arr is:
+1 2 3 4 5 6 7 
+
+*/
