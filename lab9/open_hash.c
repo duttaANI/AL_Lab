@@ -1,4 +1,5 @@
 // refer link: https://www.log2base2.com/algorithms/searching/open-hashing.html
+// Seperate chaining
 #include<stdio.h>
 #include<stdlib.h>
 
