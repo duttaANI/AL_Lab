@@ -29,16 +29,17 @@ void quickSort( int*A ,int Abegin,int i, int j, int Aend)
 	    {
 	    	swap(A,i,j);
                 
-                printf("\nAbegin=%d i=%d j=%d Aend=%d\n",Abegin,i,j,Aend);
-                printf("\n------------------------------------------------------\n");
+//                 printf("\nAbegin=%d i=%d j=%d Aend=%d\n",Abegin,i,j,Aend);
+//                 printf("\n------------------------------------------------------\n");
 	    	quickSort(A,Abegin,i+1     ,j-1 ,Aend);
 	    }
-	    else
+	    else // partition happens
 	    {
 	    	swap(A,pi,j);
                 
-                printf("\nAbegin=%d i=%d j=%d Aend=%d\n",Abegin,i,j,Aend);
+                //printf("\nAbegin=%d i=%d j=%d Aend=%d\n",Abegin,i,j,Aend);
                 printf("\n------------------------------------------------------\n");
+		printf("l1=%d u1=%d p=%d l2=%d u2=%d",Abegin,j-1,j,i,Aend);
 	    	quickSort(A,Abegin,Abegin+1,j-1 ,j-1 );
 	    	quickSort(A,i     ,i+1     ,Aend,Aend);
 	    }
