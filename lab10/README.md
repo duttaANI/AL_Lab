@@ -1,7 +1,9 @@
-### Floyds Algo {Fails when there are negative cycles}
+### Floyds Algo {Fails when there are negative weight cycles}
 
 **All Pair shortest Path Algorithm** __for directional weighted graph as adj matrix__ 
 gives shortest path between two nodes of graph
+
+### Bellman Ford Algo {Fails when there are negative weight cycles}
 
 ### Warshall Algo
 
