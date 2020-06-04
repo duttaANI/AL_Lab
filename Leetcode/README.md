@@ -98,3 +98,7 @@ Unique_Binary_Search_Trees.cpp (Catalan Number)
 Top_K_Frequent_Elements.cpp (Min Heap)
 
 1046_LastStoneWeight.cpp (Max Heap)
+
+## 11. Sort
+
+56_MergeIntervals.cpp
