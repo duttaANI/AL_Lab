@@ -102,3 +102,7 @@ Top_K_Frequent_Elements.cpp (Min Heap)
 ## 11. Sort
 
 56_MergeIntervals.cpp
+
+## 12. Greedy
+
+881_BoatstoSavePeople.cpp
