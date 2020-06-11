@@ -18,6 +18,8 @@ Coin_Change.cpp
 
 312_Burst Balloons.cpp
 
+494_TargetSum.cpp
+
 ## 2. Kadanes's Algo
 
 Maximum_Subarray.cpp
