@@ -20,6 +20,8 @@ Coin_Change.cpp
 
 494_TargetSum.cpp
 
+139_WordBreak.cpp
+
 ## 2. Kadanes's Algo
 
 Maximum_Subarray.cpp
