@@ -116,3 +116,7 @@ Top_K_Frequent_Elements.cpp (Min Heap)
 ## 12. Greedy
 
 881_BoatstoSavePeople.cpp
+
+## 13. Backtracking
+
+526_BeautifulArrangement.cpp
