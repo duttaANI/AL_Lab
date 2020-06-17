@@ -130,3 +130,5 @@ Single_Number.cpp
 172_Factorial_Trailing_Zeroes.cpp
 
 231_PowerofTwo.cpp
+
+31_NextPermutation.cpp
