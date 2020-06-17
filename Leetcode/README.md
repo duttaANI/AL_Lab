@@ -122,3 +122,7 @@ Top_K_Frequent_Elements.cpp (Min Heap)
 ## 13. Backtracking
 
 526_BeautifulArrangement.cpp
+
+## 14. Math / Logic / Bit-Manipulation
+
+Single_Number.cpp
