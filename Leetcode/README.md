@@ -26,6 +26,8 @@ Coin_Change.cpp
 
 Maximum_Subarray.cpp
 
+152_MaximumProductSubarray.cpp
+
 ## 3. Game Theory
 
 PredicttheWinner.cpp (MinMax Algo)
