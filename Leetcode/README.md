@@ -126,3 +126,5 @@ Top_K_Frequent_Elements.cpp (Min Heap)
 ## 14. Math / Logic / Bit-Manipulation
 
 Single_Number.cpp
+
+172_Factorial_Trailing_Zeroes.cpp
