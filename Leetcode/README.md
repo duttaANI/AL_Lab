@@ -128,3 +128,5 @@ Top_K_Frequent_Elements.cpp (Min Heap)
 Single_Number.cpp
 
 172_Factorial_Trailing_Zeroes.cpp
+
+231_PowerofTwo.cpp
