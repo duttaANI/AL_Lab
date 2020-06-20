@@ -22,6 +22,8 @@ Coin_Change.cpp
 
 139_WordBreak.cpp
 
+542_01Matrix.cpp (both bottum up and top down combined)
+
 ## 2. Kadanes's Algo
 
 Maximum_Subarray.cpp
