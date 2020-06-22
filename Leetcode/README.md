@@ -123,6 +123,8 @@ Top_K_Frequent_Elements.cpp (Min Heap)
 
 881_BoatstoSavePeople.cpp
 
+763_PartitionLabels.cpp
+
 ## 13. Backtracking
 
 526_BeautifulArrangement.cpp
