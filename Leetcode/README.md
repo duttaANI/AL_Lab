@@ -140,3 +140,5 @@ Single_Number.cpp
 231_PowerofTwo.cpp
 
 31_NextPermutation.cpp
+
+60_PermutationSequence.cpp
