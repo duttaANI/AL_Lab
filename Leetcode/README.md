@@ -133,6 +133,8 @@ Top_K_Frequent_Elements.cpp (Min Heap)
 
 526_BeautifulArrangement.cpp
 
+301_RemoveInvalidParentheses.cpp
+
 ## 14. Math / Logic / Bit-Manipulation
 
 Single_Number.cpp
