@@ -146,3 +146,5 @@ Single_Number.cpp
 31_NextPermutation.cpp
 
 60_PermutationSequence.cpp
+
+650_2KeysKeyboard.cpp (Prime Factorisation)
