@@ -161,6 +161,12 @@ Single_Number.cpp
 
 268_MissingNumber.cpp
 
+441_ArrangingCoins.cpp
+
 ## 15. Hashing
 
 706_DesignHashMap.cpp (HashMap)
+
+## 16. Binary Search
+
+441_ArrangingCoins.cpp
