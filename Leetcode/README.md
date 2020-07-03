@@ -160,3 +160,7 @@ Single_Number.cpp
 118_Pascal'sTriangle.cpp (Vector of Vector)
 
 268_MissingNumber.cpp
+
+## 15. Hashing
+
+706_DesignHashMap.cpp (HashMap)
