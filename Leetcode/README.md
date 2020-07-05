@@ -171,6 +171,8 @@ Single_Number.cpp
 
 706_DesignHashMap.cpp (HashMap)
 
+697_DegreeofanArray.cpp
+
 ## 16. Binary Search
 
 441_ArrangingCoins.cpp
