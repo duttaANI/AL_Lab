@@ -182,3 +182,7 @@ Single_Number.cpp
 735_AsteroidCollision.cpp
 
 856_ScoreofParentheses.cpp
+
+## 18. Partial Sum
+
+134_GasStation.cpp
