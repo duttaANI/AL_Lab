@@ -180,3 +180,5 @@ Single_Number.cpp
 ## 17. Stack
 
 735_AsteroidCollision.cpp
+
+856_ScoreofParentheses.cpp
