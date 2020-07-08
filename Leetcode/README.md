@@ -175,6 +175,8 @@ Single_Number.cpp
 
 697_DegreeofanArray.cpp
 
+846_HandofStraights.cpp (HashMap)
+
 ## 16. Binary Search
 
 441_ArrangingCoins.cpp
