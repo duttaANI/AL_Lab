@@ -171,6 +171,8 @@ Single_Number.cpp
 
 441_ArrangingCoins.cpp
 
+365_WaterandJugProblem.cpp (GCD)
+
 ## 15. Hashing
 
 706_DesignHashMap.cpp (HashMap)
