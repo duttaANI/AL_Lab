@@ -44,8 +44,6 @@ PredicttheWinner.cpp (MinMax Algo)
 
 1319_NumberofOperationstoMakeNetworkConnected.cpp (DFS in undirected graph)
 
-Course_Schedule.cpp (Topological sort)
-
 Jump_Game_II.cpp (BFS)
 
 Word_Search.cpp (DFS)
@@ -76,6 +74,10 @@ A disconnected graph  can be bipartite.
 ### Bellman Ford Algo
 
 787_CheapestFlightsWithinKStops.cpp
+
+### Kahn Algo
+
+Course_Schedule.cpp (Topological sort)
 
 ## 5. Djikstra's Algo
 
