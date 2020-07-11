@@ -32,6 +32,8 @@ Coin_Change.cpp
 
 120_Triangle.cpp (Bottom Up , optimal substructure, overlapping subproblems)
 
+838_PushDominoes.cpp
+
 ## 2. Kadanes's Algo
 
 Maximum_Subarray.cpp
