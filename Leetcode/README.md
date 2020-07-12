@@ -145,6 +145,8 @@ Top_K_Frequent_Elements.cpp (Min Heap)
 
 1029_TwoCityScheduling.cpp
 
+1030_MatrixCellsinDistanceOrder.cpp (Lambda Function)
+
 ## 12. Greedy
 
 881_BoatstoSavePeople.cpp
