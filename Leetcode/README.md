@@ -145,7 +145,7 @@ Top_K_Frequent_Elements.cpp (Min Heap)
 
 1029_TwoCityScheduling.cpp
 
-1030_MatrixCellsinDistanceOrder.cpp (Lambda Function)
+1030_MatrixCellsinDistanceOrder.cpp (Lambda Functions in cpp)
 
 ## 12. Greedy
 
