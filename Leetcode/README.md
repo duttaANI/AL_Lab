@@ -206,3 +206,7 @@ Single_Number.cpp
 ## 18. Partial Sum
 
 134_GasStation.cpp
+
+## 19. String
+
+290_WordPattern.cpp (istringstream class in #include <sstream>)
