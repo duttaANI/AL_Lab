@@ -75,6 +75,8 @@ A disconnected graph  can be bipartite.
 
 684_RedundantConnection.cpp (weighted Union and Collapsing Find <with prunning>)
   
+721_AccountsMerge.cpp (Collapsing find)
+  
 ### Bellman Ford Algo
 
 787_CheapestFlightsWithinKStops.cpp
