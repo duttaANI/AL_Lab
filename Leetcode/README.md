@@ -207,6 +207,8 @@ Single_Number.cpp
 
 441_ArrangingCoins.cpp
 
+69_Sqrt(x).cpp
+
 ## 17. Stack
 
 735_AsteroidCollision.cpp
