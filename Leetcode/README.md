@@ -193,6 +193,8 @@ Single_Number.cpp
 
 365_WaterandJugProblem.cpp (GCD)
 
+561_ArrayPartitionI.cpp
+
 ## 15. Hashing
 
 706_DesignHashMap.cpp (HashMap)
