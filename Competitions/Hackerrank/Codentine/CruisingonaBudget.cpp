@@ -1,3 +1,137 @@
+// dijkstra 4
+
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+#include <set>
+using namespace std;
+
+const int INF = 1000000000;
+
+vector< vector<int> > adjMat ( 10000, vector<int> (10000,0) );
+
+int restore_path(int s, int t, vector<int> const& p,vector< vector< pair<unsigned,int> > > G) {
+    vector<int> path;
+    // cout << "\nnew\n";
+    for (int v = t; v != s; v = p[v])
+        path.push_back(v);
+    path.push_back(s);
+
+    reverse(path.begin(), path.end());
+    
+    int ans = 0,cur=9999;
+    
+    for(int i=1; i<path.size(); ++i){
+        cur = adjMat[path[i-1]][path[i]];
+        // cout << path[i] << " " << cur << " cur\n";
+        if(cur>ans)
+            ans = cur;
+    }
+    
+    return ans;
+}
+
+// int getMaxCost( vector<int> & path, vector< vector< pair<unsigned,int> > > G ){
+//     int ans=0,cur;
+    
+//     for(int i=0; i<path.size(); ++i)
+//         cout << i << " " << path[i] << " ";
+    
+//     int n = path.size()-1;
+//     cout << "hi\n";
+//     //cout <<  "path " << path[n] << "\n";
+//     while( n!=0 ){
+//         //cout <<  "n " << n << " ";
+//         cur = G[path[n]][n].second;
+//         //cout << cur << " " ;
+//         if(cur>ans)
+//             ans=cur;
+//         n= path[n];
+//         //cout <<  "path[n]" << path[n] << "\n";
+//     }
+//     //cout << "ans " << ans << "\n";
+//     return ans;
+// }
+
+void dijkstra(int s,vector<long long int> & d, vector< pair<int,long long int> > & record,vector< vector< pair<unsigned,int> > >& G,vector<int> & path ) {
+    int n = G.size();
+    d.assign(n, INF);
+    path.assign(n, -1);
+    record.push_back( make_pair(1, INF ));
+ 
+    d[s] = 0;
+    set<pair<long long int, int>> q;
+    q.insert({0, s});
+    while (!q.empty()) {
+        int v = q.begin()->second;
+        q.erase(q.begin());
+
+        for (auto edge : G[v]) {
+            int to = edge.first;
+            int len = edge.second;
+
+            if (d[v] + len < d[to]) {
+                path[to] = v;
+                q.erase({d[to], to});
+                d[to] = d[v] + len;
+                
+                if( to==n-1  ){
+                    //cout << "n-1 " << d[v] + len << "\n";
+                    int x = restore_path(0,n-1, path,G);
+                    //cout << x << " " << d[v] + len << "\n";
+                    record.push_back( make_pair(x,d[v] + len ) );                     
+                }
+                
+                q.insert({d[to], to});
+            }
+        }
+    }
+}
+
+
+int main() {
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
+    int m,b,c,ans=INF,cur;
+    unsigned a,n;
+    cin >> n >> m;
+    
+    vector< vector< pair<unsigned,int> > > G(n);
+    for(int i=0; i<m; ++i){
+        cin >> a >> b >> c;
+        G[a-1].push_back( make_pair(b-1,c) ); // dst , weight
+        adjMat[a-1][b-1] = c;
+    }
+
+    // for( unsigned i =0; i<G.size(); ++i){
+    //   for(unsigned j=0; j<G[i].size(); ++j)
+    //   {
+    //     cout << i+1 << " " << j+1 << " " << G[i][j].first+1 << " " << G[i][j].second << " ";
+    //   }
+    //   cout << "\n";
+    // }
+
+    vector<long long int> min_cost;
+    vector<int> path; // min_cost->d
+    vector< pair<int,long long int> > record;
+    dijkstra(0,min_cost,record,G,path);
+    
+    // for(auto i: record)
+    //     cout << i.second << " " << i.first << "\n";
+
+    for(auto i: record){
+        cur = i.second - i.first + i.first/2;
+        if(ans>cur)
+            ans=cur;
+    }
+    
+    cout << ans;
+    
+    return 0;
+}
+
+
 // using dijkstra 3 <getting max cost from parents>
 #include <cmath>
 #include <cstdio>
