@@ -1,3 +1,9 @@
+solution - Bidirectional Dijkstra
+
+https://github.com/sankalp1999/Competitive-Programming/blob/master/Hackerrank/Codetine/DijkstraWithOneEdgeDiscount.cpp
+
+//----------------------------------------------------------------------------------------------------------------------------------------
+
 // dijkstra 4
 
 #include <cmath>
