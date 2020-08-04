@@ -197,6 +197,8 @@ Single_Number.cpp
 
 561_ArrayPartitionI.cpp
 
+50_Pow(x,n).cpp (Binary Exponentiation)
+
 ## 15. Hashing
 
 706_DesignHashMap.cpp (HashMap)
