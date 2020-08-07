@@ -243,4 +243,4 @@ Single_Number.cpp
 
 15_3Sum.cpp
 
-18_4Sum.cpp (learnt to use vector< vector >)
+18_4Sum.cpp (learnt to use vector< vector >) (Generalized i.e. contains code for 5,6..n Sum)
