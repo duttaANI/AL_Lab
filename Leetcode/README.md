@@ -103,8 +103,6 @@ Course_Schedule.cpp (Topological sort)
 
 ## 6. Two Pointer
 
-15_3Sum.cpp
-
 Container_With_Most_Water.cpp
 
 Shortest_Unsorted_Continuous_Subarray.cpp
@@ -240,3 +238,9 @@ Single_Number.cpp
 ## 20. Matrix Exponentiation
 
 509_FibonacciNumber.cpp
+
+## 21. KSum
+
+15_3Sum.cpp
+
+18_4Sum.cpp (learnt to use vector<vector>)
