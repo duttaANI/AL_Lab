@@ -111,6 +111,8 @@ Shortest_Unsorted_Continuous_Subarray.cpp
 
 209_MinimumSizeSubarraySum.cpp
 
+84_LargestRectangleinHistogram.cpp
+
 ## 7. Floyd's Tortoise and Hare
 
 Intersection_of_Two_Linked_Lists.cpp
