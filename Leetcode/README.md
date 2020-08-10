@@ -253,4 +253,4 @@ Single_Number.cpp
 
 ## 22. Divide and Conquer
 
-23_MergekSortedLists.cpp (iterative Div and Conquer)
+[23_MergekSortedLists.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/23_MergekSortedLists.cpp) (iterative Div and Conquer)
