@@ -103,7 +103,7 @@ Course_Schedule.cpp (Topological sort)
 
 743_NetworkDelayTime.cpp 
 
-[1514_PathwithMaximumProbability.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/1514_PathwithMaximumProbability.cpp) (with priority queue)
+1514_[PathwithMaximumProbability.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/1514_PathwithMaximumProbability.cpp) (with priority queue)
 
 ## 6. Two Pointer
 
@@ -253,4 +253,4 @@ Single_Number.cpp
 
 ## 22. Divide and Conquer
 
-[23_MergekSortedLists.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/23_MergekSortedLists.cpp) (iterative Div and Conquer)
+23_[MergekSortedLists.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/23_MergekSortedLists.cpp) (iterative Div and Conquer)
