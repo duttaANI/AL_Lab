@@ -249,7 +249,7 @@ Single_Number.cpp
 
 15_3Sum.cpp
 
-18_4Sum.cpp (learnt to use vector< vector >) (Generalized i.e. contains code for 5,6..n Sum)
+18_[4Sum.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/18_4Sum.cpp) (learnt to use vector< vector >) (Generalized i.e. contains code for 5,6..n Sum)
 
 ## 22. Divide and Conquer
 
