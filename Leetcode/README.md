@@ -95,7 +95,7 @@ A disconnected graph  can be bipartite.
 
 ### Kahn Algo
 
-Course_Schedule.cpp (Topological sort)
+[Course_Schedule.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/Course_Schedule.cpp) (Topological sort)
 
 210_CourseScheduleII.cpp (Topological sort)
 
