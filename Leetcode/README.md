@@ -83,7 +83,7 @@ A disconnected graph  can be bipartite.
 
 ### Union Find
 
-684_RedundantConnection.cpp (weighted Union and Collapsing Find <with prunning>)
+684_[RedundantConnection.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/684_RedundantConnection.cpp) (weighted Union and Collapsing Find , can be done on both dir & undir graphs)
   
 721_AccountsMerge.cpp (Collapsing find)
 
@@ -91,7 +91,7 @@ A disconnected graph  can be bipartite.
   
 ### Bellman Ford Algo
 
-787_CheapestFlightsWithinKStops.cpp
+787_[CheapestFlightsWithinKStops.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/787_CheapestFlightsWithinKStops.cpp)
 
 ### Kahn Algo
 
@@ -101,7 +101,7 @@ Course_Schedule.cpp (Topological sort)
 
 ## 5. Djikstra's Algo
 
-934_ShortestBridge.cpp (DFS + Flood Fill + Expand)
+934_[ShortestBridge.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/934_ShortestBridge.cpp) (DFS + Flood Fill + Expand)
 
 743_NetworkDelayTime.cpp 
 
