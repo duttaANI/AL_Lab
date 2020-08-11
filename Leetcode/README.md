@@ -54,7 +54,7 @@ PredicttheWinner.cpp (MinMax Algo)
 
 ## 4. Graph
 
-1319_NumberofOperationstoMakeNetworkConnected.cpp (DFS in undirected graph)
+1319_[NumberofOperationstoMakeNetworkConnected.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/1319_NumberofOperationstoMakeNetworkConnected.cpp) (DFS in undirected graph)
 
 Jump_Game_II.cpp (BFS)
 
