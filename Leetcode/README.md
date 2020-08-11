@@ -219,7 +219,7 @@ Single_Number.cpp
 
 1122_RelativeSortArray.cpp (Map)
 
-1296_DivideArrayinSetsofKConsecutiveNumbers.cpp (iterating MAP with conditions)
+1296_[DivideArrayinSetsofKConsecutiveNumbers.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/1296_DivideArrayinSetsofKConsecutiveNumbers.cpp) (iterating MAP with conditions)
 
 205_IsomorphicStrings.cpp
 
