@@ -44,7 +44,7 @@ Coin_Change.cpp
 
 ## 2. Kadanes's Algo
 
-Maximum_Subarray.cpp
+[Maximum_Subarray.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/Maximum_Subarray.cpp)
 
 152_MaximumProductSubarray.cpp
 
@@ -66,7 +66,7 @@ Word_Search.cpp (DFS)
 
 547_FriendCircles.cpp (DFS)
 
-733_FloodFill.cpp (DFS)
+733_[FloodFill.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/733_FloodFill.cpp) (DFS)
 
 130_SurroundedRegions.cpp (DFS)
 
@@ -77,7 +77,7 @@ A disconnected graph  can be bipartite.
 
 17_LetterCombinationsofaPhoneNumber.cpp (BFS trace it)
 
-399_EvaluateDivision.cpp (DFS on Adj List)
+399_[EvaluateDivision.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/399_EvaluateDivision.cpp) (DFS on Adj List)
 
 695_MaxAreaofIsland.cpp (DFS on binary matrix)
 
