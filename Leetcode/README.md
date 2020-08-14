@@ -157,7 +157,7 @@ Top_K_Frequent_Elements.cpp (Min Heap)
 
 ## 11. Sort
 
-56_MergeIntervals.cpp
+56_[MergeIntervals.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/56_MergeIntervals.cpp)
 
 75_SortColors.cpp
 
