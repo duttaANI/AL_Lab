@@ -99,6 +99,10 @@ A disconnected graph  can be bipartite.
 
 210_CourseScheduleII.cpp (Topological sort)
 
+### Kruskal's Algo
+
+1489_[FindCriticalandPseudo-CriticalEdgesinMinimumSpanningTree.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/1489_FindCriticalandPseudo-CriticalEdgesinMinimumSpanningTree.cpp)
+
 ## 5. Djikstra's Algo
 
 934_[ShortestBridge.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/934_ShortestBridge.cpp) (DFS + Flood Fill + Expand)
