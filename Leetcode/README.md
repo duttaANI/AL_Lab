@@ -185,6 +185,8 @@ Top_K_Frequent_Elements.cpp (Min Heap)
 
 301_RemoveInvalidParentheses.cpp
 
+679_[24Game.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/679_24Game.cpp)
+
 ## 14. Math / Logic / Bit-Manipulation
 
 Single_Number.cpp
