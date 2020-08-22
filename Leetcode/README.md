@@ -58,7 +58,7 @@ PredicttheWinner.cpp (MinMax Algo)
 
 Jump_Game_II.cpp (BFS)
 
-Word_Search.cpp (DFS)
+[Word_Search.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/Word_Search.cpp) (DFS)
 
 39_CombinationSum.cpp (DFS)
 
