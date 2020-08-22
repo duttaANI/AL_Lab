@@ -81,6 +81,8 @@ A disconnected graph  can be bipartite.
 
 695_MaxAreaofIsland.cpp (DFS on binary matrix)
 
+994_[RottingOranges.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/994_RottingOranges.cpp) (BFS)
+
 ### Union Find
 
 684_[RedundantConnection.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/684_RedundantConnection.cpp) (weighted Union and Collapsing Find , can be done on both dir & undir graphs)
