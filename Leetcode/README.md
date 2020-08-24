@@ -221,6 +221,8 @@ Single_Number.cpp
 
 50_Pow(x,n).cpp (Binary Exponentiation)
 
+1558_[MinimumNumbersofFunctionCallstoMakeTargetArray.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/1558_MinimumNumbersofFunctionCallstoMakeTargetArray.cpp)
+
 ## 15. Hashing
 
 706_DesignHashMap.cpp (HashMap)
