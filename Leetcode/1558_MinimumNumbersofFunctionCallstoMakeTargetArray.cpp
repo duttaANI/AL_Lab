@@ -2,7 +2,22 @@
 
 // link :https://leetcode.com/problems/minimum-numbers-of-function-calls-to-make-target-array/discuss/805740/JavaC%2B%2BPython-Bit-Counts
 
-
+class Solution {
+public:
+    int minOperations(vector<int>& A) {
+        int res = 0, maxLen = 0;
+        for (int a : A) {
+            int bits = 0;
+            while (a > 0) {
+                res += a & 1;
+                bits++;
+                a >>= 1;
+            }
+            maxLen = max(maxLen, bits);
+        }
+        return res + maxLen - 1;
+    }
+};
 
 // following attempt didnt work
 
