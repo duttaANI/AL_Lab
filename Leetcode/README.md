@@ -125,6 +125,8 @@ Shortest_Unsorted_Continuous_Subarray.cpp
 
 84_LargestRectangleinHistogram.cpp
 
+1566_[DetectPatternofLengthMRepeatedKorMoreTimes.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/1566_DetectPatternofLengthMRepeatedKorMoreTimes.cpp)
+
 ## 7. Floyd's Tortoise and Hare
 
 Intersection_of_Two_Linked_Lists.cpp
