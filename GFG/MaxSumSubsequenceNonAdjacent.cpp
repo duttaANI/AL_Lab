@@ -23,13 +23,13 @@ vector<int> maxSumSubseq(vector<int> & A, int i, int n, int prev, vector<int>  a
 
 	// return the list with maximum sum
 
-	long incl = accumulate(ans1.begin(),ans1.end(),0);
-	long excl = accumulate(ans2.begin(),ans2.end(),0);
+	long excl = accumulate(ans1.begin(),ans1.end(),0);
+	long incl = accumulate(ans2.begin(),ans2.end(),0);
 
 	if(incl > excl){
-		return ans1;
+		return ans2;
 	}
-	return ans2;
+	return ans1;
 }
 
 int main(){
