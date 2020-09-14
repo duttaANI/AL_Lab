@@ -225,6 +225,8 @@ Single_Number.cpp
 
 1558_[MinimumNumbersofFunctionCallstoMakeTargetArray.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/1558_MinimumNumbersofFunctionCallstoMakeTargetArray.cpp)
 
+1577_[NumberofWaysWhereSquareofNumberIsEqualtoProductofTwoNumbers.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/1577_NumberofWaysWhereSquareofNumberIsEqualtoProductofTwoNumbers.cpp)
+
 ## 15. Hashing
 
 706_DesignHashMap.cpp (HashMap)
