@@ -4,7 +4,7 @@
 gives shortest path between two nodes of graph
 
 ### 2. Bellman Ford Algo {Fails when there are negative weight cycles}
-       It is single source shortest path algo . It is capable of handling negative weights whereas dijkstra can not handle negative weights.
+It is single source shortest path algo . It is capable of handling negative weights whereas dijkstra can not handle negative weights.
 
 ### 3. Warshall Algo
 
