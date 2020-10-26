@@ -42,6 +42,8 @@ Coin_Change.cpp
 
 72_[EditDistance.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/72_EditDistance.cpp)
 
+241_[DifferentWaystoAddParentheses.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/241_DifferentWaystoAddParentheses.cpp)
+
 ## 2. Kadanes's Algo
 
 [Maximum_Subarray.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/Maximum_Subarray.cpp)
