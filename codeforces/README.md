@@ -1,4 +1,4 @@
-## Mathematics
+## 1. Mathematics
 
 ### Permutation and Combination
 
