@@ -1,5 +1,7 @@
 ## 1. Dynamic Prog
 
+[1437C_ChefMonocarp.cpp](https://github.com/duttaANI/AL_Lab/blob/master/codeforces/1437C_ChefMonocarp.cpp)
+
 ### Knapsack
 
 [1433F_ZeroRemainderSum.cpp](https://github.com/duttaANI/AL_Lab/blob/master/codeforces/1433F_ZeroRemainderSum.cpp)
