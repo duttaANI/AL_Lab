@@ -23,3 +23,7 @@
 ### Longest Increasing Subsequence 
 
 [1437E_MakeItIncreasing.cpp](https://github.com/duttaANI/AL_Lab/blob/master/codeforces/1437E_MakeItIncreasing.cpp)
+
+## 4. Math
+
+[1445C_Division.cpp](https://github.com/duttaANI/AL_Lab/blob/master/codeforces/1445C_Division.cpp)
