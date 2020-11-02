@@ -17,3 +17,9 @@
 ### Permutation and Combination
 
 [1433E_TwoRoundDances.cpp](https://github.com/duttaANI/AL_Lab/blob/master/codeforces/1433E_TwoRoundDances.cpp) 
+
+## 3. Array
+
+### Longest Increasing Subsequence 
+
+[1437E_MakeItIncreasing.cpp](https://github.com/duttaANI/AL_Lab/blob/master/codeforces/1437E_MakeItIncreasing.cpp)
