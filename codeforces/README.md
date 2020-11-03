@@ -14,9 +14,15 @@
 
 ## 2. Mathematics
 
+[1445C_Division.cpp](https://github.com/duttaANI/AL_Lab/blob/master/codeforces/1445C_Division.cpp)
+
 ### Permutation and Combination
 
 [1433E_TwoRoundDances.cpp](https://github.com/duttaANI/AL_Lab/blob/master/codeforces/1433E_TwoRoundDances.cpp) 
+
+#### Euler theorem
+
+[1445D_DivideandSum.cpp](https://github.com/duttaANI/AL_Lab/blob/master/codeforces/Oct2020/1445D_DivideandSum.cpp)
 
 ## 3. Array
 
@@ -24,6 +30,5 @@
 
 [1437E_MakeItIncreasing.cpp](https://github.com/duttaANI/AL_Lab/blob/master/codeforces/1437E_MakeItIncreasing.cpp)
 
-## 4. Math
 
-[1445C_Division.cpp](https://github.com/duttaANI/AL_Lab/blob/master/codeforces/1445C_Division.cpp)
+
