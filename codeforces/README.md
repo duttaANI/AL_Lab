@@ -30,5 +30,9 @@
 
 [1437E_MakeItIncreasing.cpp](https://github.com/duttaANI/AL_Lab/blob/master/codeforces/1437E_MakeItIncreasing.cpp)
 
+### Sort
+
+[1443C_TheDeliveryDilemma.cpp](https://github.com/duttaANI/AL_Lab/blob/master/codeforces/1443C_TheDeliveryDilemma.cpp)
+
 
 
