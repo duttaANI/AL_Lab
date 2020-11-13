@@ -12,6 +12,10 @@
 
 [1433G_ReducingDeliveryCost.cpp](https://github.com/duttaANI/AL_Lab/blob/master/codeforces/1433G_ReducingDeliveryCost.cpp) [applying dijkstra n times]
 
+#### Mutisource Dijkstra
+
+[983D_BuyaTicket.cpp](https://github.com/duttaANI/AL_Lab/blob/master/codeforces/983D_BuyaTicket.cpp)
+
 ## 2. Mathematics
 
 [1445C_Division.cpp](https://github.com/duttaANI/AL_Lab/blob/master/codeforces/1445C_Division.cpp)
