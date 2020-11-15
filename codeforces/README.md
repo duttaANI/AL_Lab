@@ -38,5 +38,11 @@
 
 [1443C_TheDeliveryDilemma.cpp](https://github.com/duttaANI/AL_Lab/blob/master/codeforces/1443C_TheDeliveryDilemma.cpp)
 
+## 4. Bit Manipulation
+
+### Xor
+
+[1438D_PowerfulKsenia.cpp](https://github.com/duttaANI/AL_Lab/blob/master/codeforces/Nov2020/1438D_PowerfulKsenia.cpp)
+
 
 
