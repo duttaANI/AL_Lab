@@ -48,6 +48,10 @@ Coin_Change.cpp
 
 1235_[MaximumProfitinJobScheduling.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/1235.%20Maximum%20Profit%20in%20Job%20Scheduling.cpp)
 
+### Longest Common Subsequence
+
+1143_[LongestCommonSubsequence.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/1143_LongestCommonSubsequence.cpp)
+
 ## 2. Kadanes's Algo
 
 [Maximum_Subarray.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/Maximum_Subarray.cpp)
