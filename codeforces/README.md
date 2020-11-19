@@ -44,5 +44,7 @@
 
 [1438D_PowerfulKsenia.cpp](https://github.com/duttaANI/AL_Lab/blob/master/codeforces/Nov2020/1438D_PowerfulKsenia.cpp)
 
+## 5. String
 
+[1392D_OmkarandBedWars.cpp](https://github.com/duttaANI/AL_Lab/blob/master/codeforces/1392D_OmkarandBedWars.cpp)
 
