@@ -52,6 +52,8 @@
 
 [1438D_PowerfulKsenia.cpp](https://github.com/duttaANI/AL_Lab/blob/master/codeforces/Nov2020/1438D_PowerfulKsenia.cpp)
 
+[1451E1_BitwiseQueries.cpp](https://github.com/duttaANI/AL_Lab/blob/master/codeforces/Nov2020/1451E1_BitwiseQueries.cpp) [a+b=(a⊕b)+2∗(a&b)]
+
 ## 5. String
 
 [1392D_OmkarandBedWars.cpp](https://github.com/duttaANI/AL_Lab/blob/master/codeforces/1392D_OmkarandBedWars.cpp)
