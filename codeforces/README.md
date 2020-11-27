@@ -12,6 +12,8 @@
 
 ## 2. Graph
 
+[1454E_NumberofSimplePaths.cpp](https://github.com/duttaANI/AL_Lab/blob/master/codeforces/Nov2020/1454E_NumberofSimplePaths.cpp)
+
 ### Dijkstra
 
 [1433G_ReducingDeliveryCost.cpp](https://github.com/duttaANI/AL_Lab/blob/master/codeforces/1433G_ReducingDeliveryCost.cpp) [applying dijkstra n times]
@@ -57,4 +59,8 @@
 ## 5. String
 
 [1392D_OmkarandBedWars.cpp](https://github.com/duttaANI/AL_Lab/blob/master/codeforces/1392D_OmkarandBedWars.cpp)
+
+## 6. Tree
+
+[1454E_NumberofSimplePaths.cpp](https://github.com/duttaANI/AL_Lab/blob/master/codeforces/Nov2020/1454E_NumberofSimplePaths.cpp)
 
