@@ -68,3 +68,7 @@
 
 [1454E_NumberofSimplePaths.cpp](https://github.com/duttaANI/AL_Lab/blob/master/codeforces/Nov2020/1454E_NumberofSimplePaths.cpp)
 
+## 7. Segment Tree
+
+[1454F_ArrayPartition.cpp](https://github.com/duttaANI/AL_Lab/blob/master/codeforces/Nov2020/1454F_ArrayPartition.cpp)
+
