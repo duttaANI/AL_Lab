@@ -12,6 +12,8 @@
 
 ## 2. Graph
 
+[1472G_MovingtotheCapital.cpp](https://github.com/duttaANI/AL_Lab/blob/master/codeforces/Jan2021/1472G_Moving%20to%20the%20Capital.cpp)
+
 [1454E_NumberofSimplePaths.cpp](https://github.com/duttaANI/AL_Lab/blob/master/codeforces/Nov2020/1454E_NumberofSimplePaths.cpp)
 
 ### Dijkstra
