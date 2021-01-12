@@ -78,3 +78,6 @@
 
 [1455D_SequenceandSwaps.cpp](https://github.com/duttaANI/AL_Lab/blob/master/codeforces/Dec2020/1455D_SequenceandSwaps.cpp)
 
+## 9. Other
+
+[1472F_NewYear'sPuzzle.cpp](https://github.com/duttaANI/AL_Lab/blob/master/codeforces/Jan2021/1472F_NewYear'sPuzzle.cpp)
