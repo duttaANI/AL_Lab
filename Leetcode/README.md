@@ -99,6 +99,8 @@ A disconnected graph  can be bipartite.
 
 1557_[MinimumNumberofVerticestoReachAllNodes.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/1557_MinimumNumberofVerticestoReachAllNodes.cpp)
 
+1020_[NumberofEnclaves.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/1020_NumberofEnclaves.cpp)
+
 ### Union Find
 
 990_[SatisfiabilityofEqualityEquations.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/990_SatisfiabilityofEqualityEquations.cpp)
