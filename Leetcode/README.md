@@ -101,6 +101,8 @@ A disconnected graph  can be bipartite.
 
 ### Union Find
 
+990_[SatisfiabilityofEqualityEquations.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/990_SatisfiabilityofEqualityEquations.cpp)
+
 684_[RedundantConnection.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/684_RedundantConnection.cpp) (weighted Union and Collapsing Find , can be done on both dir & undir graphs)
   
 721_AccountsMerge.cpp (Collapsing find)
