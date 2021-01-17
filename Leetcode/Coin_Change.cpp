@@ -1,3 +1,5 @@
+// Top Down DP
+
 #include <iostream>
 #include <bits/stdc++.h> 
 #include <cstdlib>
@@ -80,3 +82,58 @@ int main() {
     }
     return 0;
 }
+
+
+// Bottom Up DP
+
+class Solution {
+public:
+    
+    
+    int coinChange(vector<int>& coins, int amount) {
+        int n = coins.size(),mn;
+        
+        vector<int> coins2;
+        for(int i=0; i<n; ++i){
+            if(coins[i]<=amount){
+                coins2.push_back( coins[i] );
+            }
+        }
+        
+        n = coins2.size();
+        
+        if(amount < 1)
+            return 0;
+        
+        vector<int> dp(amount+1,-1 );
+        
+        dp[0] = 0;
+        for(int i=0; i<n;++i){
+            dp[coins2[i]] = 1;
+        }
+        
+        
+        for(int i=1; i<=amount; ++i){
+            mn = INT_MAX;
+            for(int j=0; j<n ; ++j){
+                if( i-coins2[j]>=0 && dp[i-coins2[j]]!=-1 ){
+                    mn = min({ mn,1+dp[i-coins2[j]] });
+                }
+            }
+        
+            if( dp[i]!=-1 ){
+                mn = min({ mn,dp[i] });
+            }
+            
+            
+            // cout << mn << " " << i << endl;
+            if(mn!=INT_MAX){
+                dp[i] = mn;
+            }
+            else{
+                dp[i]= -1;
+            }
+        }
+        return dp[amount];
+    }
+};
