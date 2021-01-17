@@ -306,3 +306,6 @@ Single_Number.cpp
 ## 22. Sliding Window
 
 239_[SlidingWindowMaximum.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/239_SlidingWindowMaximum.cpp)
+
+## 23. Array
+
