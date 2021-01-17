@@ -271,6 +271,8 @@ Single_Number.cpp
 
 205_IsomorphicStrings.cpp
 
+1218_[LongestArithmeticSubsequenceofGivenDifference.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/1218_LongestArithmeticSubsequenceofGivenDifference.cpp) (unordered_map)
+
 ## 16. Binary Search
 
 441_ArrangingCoins.cpp
