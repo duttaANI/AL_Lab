@@ -103,6 +103,8 @@ A disconnected graph  can be bipartite.
 
 1020_[NumberofEnclaves.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/1020_NumberofEnclaves.cpp)
 
+131_[PalindromePartitioning.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/131_PalindromePartitioning.cpp) (DFS on string)
+
 ### Union Find
 
 990_[SatisfiabilityofEqualityEquations.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/990_SatisfiabilityofEqualityEquations.cpp)
