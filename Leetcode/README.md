@@ -253,6 +253,8 @@ Single_Number.cpp
 
 1577_[NumberofWaysWhereSquareofNumberIsEqualtoProductofTwoNumbers.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/1577_NumberofWaysWhereSquareofNumberIsEqualtoProductofTwoNumbers.cpp)
 
+343_[IntegerBreak.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/343_IntegerBreak.cpp)
+
 ## 15. Hashing
 
 706_DesignHashMap.cpp (HashMap)
