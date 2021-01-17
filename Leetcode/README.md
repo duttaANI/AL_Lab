@@ -68,6 +68,8 @@ Coin_Change.cpp
 
 152_MaximumProductSubarray.cpp
 
+1186_[MaximumSubarraySumwithOneDeletion.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/1186_MaximumSubarraySumwithOneDeletion.cpp) (Bidirectional Kadane's Algo )
+
 ## 3. Game Theory
 
 PredicttheWinner.cpp (MinMax Algo)
