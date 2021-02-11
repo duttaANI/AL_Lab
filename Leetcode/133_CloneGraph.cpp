@@ -24,30 +24,28 @@ public:
 
 class Solution {
 public:
-    void dfs(Node *node, Node *tempcopy, unordered_map<Node *, Node *> &visited) { 
-        for(Node *i : node->neighbors) { 
-            if(visited.find(i) == visited.end()) { 
-                Node *copy = new Node(i->val, {});  
-                visited[i] = copy; 
-                dfs(i, copy, visited);
-            } 
-            tempcopy->neighbors.push_back(visited[i]);
-        } 
-    }
     
+   Node* dfs(Node* node, unordered_map <Node *, Node *>& m){
+        Node * newn = new Node(node->val);
+        m[node] = newn;
+        for( Node * nbr : node->neighbors ){
+            if( m.find(nbr) != m.end() ){
+                newn->neighbors.push_back(m[nbr]);
+            }
+            else{
+                newn->neighbors.push_back( dfs(nbr,m) );
+            }
+        }
+        return newn;
+    }
+   
     Node* cloneGraph(Node* node) {
         if(!node) { 
             return NULL;
         }         
         
-        unordered_map <Node *, Node *> visited; 
+        unordered_map <Node *, Node *> visited;
         
-        Node *tempcopy = new Node(node->val, {}); 
-        
-        visited[node] = tempcopy; 
-        
-        dfs(node ,tempcopy, visited); 
-        
-        return tempcopy;
+        return dfs(node,visited);
     }
 };
