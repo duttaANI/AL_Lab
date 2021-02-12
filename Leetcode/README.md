@@ -133,6 +133,8 @@ A disconnected graph  can be bipartite.
 
 210_CourseScheduleII.cpp (Topological sort)
 
+310_[MinimumHeightTrees.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/310_MinimumHeightTrees.cpp)
+
 ### Kruskal's Algo
 
 1489_[FindCriticalandPseudo-CriticalEdgesinMinimumSpanningTree.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/1489_FindCriticalandPseudo-CriticalEdgesinMinimumSpanningTree.cpp)
