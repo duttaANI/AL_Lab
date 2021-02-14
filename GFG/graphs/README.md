@@ -9,3 +9,7 @@
 ### Krushkal
 
 [MinimumSpanningTree.cpp](https://github.com/duttaANI/AL_Lab/blob/master/GFG/graphs/MinimumSpanningTree.cpp)
+
+### Primms
+
+[MinimumSpanningTree2.cpp](https://github.com/duttaANI/AL_Lab/blob/master/GFG/graphs/MinimumSpanningTree2.cpp)
