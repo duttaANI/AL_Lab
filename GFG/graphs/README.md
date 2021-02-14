@@ -6,10 +6,10 @@
 
 ## Minimum Spanning Tree
 
-### Krushkal
+### Krushkals Algo
 
 [MinimumSpanningTree.cpp](https://github.com/duttaANI/AL_Lab/blob/master/GFG/graphs/MinimumSpanningTree.cpp)
 
-### Primms
+### Prims Algo
 
 [MinimumSpanningTree2.cpp](https://github.com/duttaANI/AL_Lab/blob/master/GFG/graphs/MinimumSpanningTree2.cpp)
