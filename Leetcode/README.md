@@ -175,6 +175,8 @@ Find_the_Duplicate_Number.cpp
 
 653_TwoSumIV-InputisaBST.cpp
 
+[128_LongestConsecutiveSequence.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/128_LongestConsecutiveSequence.cpp)
+
 ## 9. Tree
 
 [Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.cpp)
