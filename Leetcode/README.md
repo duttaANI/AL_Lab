@@ -113,6 +113,10 @@ A disconnected graph  can be bipartite.
 
 131_[PalindromePartitioning.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/131_PalindromePartitioning.cpp) (DFS on string)
 
+### Bidirectional BFS
+
+127_[WordLadder.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/127_WordLadder.cpp)
+
 ### Union Find
 
 990_[SatisfiabilityofEqualityEquations.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/990_SatisfiabilityofEqualityEquations.cpp)
@@ -175,7 +179,7 @@ Find_the_Duplicate_Number.cpp
 
 653_TwoSumIV-InputisaBST.cpp
 
-[128_LongestConsecutiveSequence.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/128_LongestConsecutiveSequence.cpp)
+128_[LongestConsecutiveSequence.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/128_LongestConsecutiveSequence.cpp)
 
 ## 9. Tree
 
