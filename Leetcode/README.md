@@ -126,6 +126,8 @@ A disconnected graph  can be bipartite.
 721_AccountsMerge.cpp (Collapsing find)
 
 685_RedundantConnectionII.cpp
+
+924_[MinimizeMalwareSpread.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/924_MinimizeMalwareSpread.cpp)
   
 ### Bellman Ford Algo
 
