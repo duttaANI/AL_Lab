@@ -17,3 +17,7 @@
 ## Topological Sort
 
 [AlienDictionary.cpp](https://github.com/duttaANI/AL_Lab/blob/master/GFG/graphs/Alien%20Dictionary.cpp)
+
+## Critical connections / Briges in graph
+
+[Critical Connections.cpp](https://github.com/duttaANI/AL_Lab/blob/master/GFG/graphs/Critical%20Connections.cpp) [Q link](https://practice.geeksforgeeks.org/problems/critical-connections/1/#) (CP Algorithms)
