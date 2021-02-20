@@ -21,3 +21,9 @@
 ## Critical connections / Briges in graph
 
 [Critical Connections.cpp](https://github.com/duttaANI/AL_Lab/blob/master/GFG/graphs/Critical%20Connections.cpp) [Q link](https://practice.geeksforgeeks.org/problems/critical-connections/1/#) (CP Algorithms)
+
+## Bellman Ford
+
+### Detect negative weight cycle in directed graph
+
+[Negative weight cycle.cpp](https://github.com/duttaANI/AL_Lab/blob/master/GFG/graphs/Negative%20weight%20cycle.cpp)
