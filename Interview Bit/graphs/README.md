@@ -4,6 +4,8 @@
 
 [Cycle in Undirected Graph, BFS with if p(u)!=v](https://github.com/duttaANI/AL_Lab/blob/master/Interview%20Bit/graphs/Cycle%20in%20Undirected%20Graph.cpp)
 
+[Negative weight cycle in Directed graph, Bellman Ford](https://github.com/duttaANI/AL_Lab/blob/master/GFG/graphs/Negative%20weight%20cycle.cpp)
+
 ## BFS
 
 [Largest Distance between nodes of a Tree.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Interview%20Bit/graphs/Largest%20Distance%20between%20nodes%20of%20a%20Tree.cpp)
