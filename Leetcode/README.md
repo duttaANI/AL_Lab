@@ -52,6 +52,8 @@ Coin_Change.cpp
 
 714_[BestTimetoBuyandSellStockwithTransactionFee.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/714_BestTimetoBuyandSellStockwithTransactionFee.cpp)
 
+1770_[MaximumScorefromPerformingMultiplicationOperations.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/1770_MaximumScorefromPerformingMultiplicationOperations.cpp)
+
 ### LIS
 
 [300_LongestIncreasingSubsequence.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/300_Longest%20Increasing%20Subsequence.cpp)
