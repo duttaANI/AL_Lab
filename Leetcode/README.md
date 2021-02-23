@@ -54,6 +54,12 @@ Coin_Change.cpp
 
 1770_[MaximumScorefromPerformingMultiplicationOperations.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/1770_MaximumScorefromPerformingMultiplicationOperations.cpp)
 
+### Knapsack
+
+#### Unbounded
+
+1547_[MinimumCosttoCutaStick.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/1547_MinimumCosttoCutaStick.cpp)
+
 ### 2D
 
 688_[KnightProbabilityinChessboard.pdf](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/688_KnightProbabilityinChessboard.pdf)
