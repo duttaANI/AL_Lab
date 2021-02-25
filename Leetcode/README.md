@@ -307,6 +307,8 @@ Single_Number.cpp
 
 ## 16. Binary Search
 
+[Median_of_Two_Sorted_Arrays.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/Median_of_Two_Sorted_Arrays.cpp)
+
 441_ArrangingCoins.cpp
 
 69_Sqrt(x).cpp
