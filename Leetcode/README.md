@@ -86,7 +86,7 @@ Coin_Change.cpp
 
 ## 3. Game Theory
 
-PredicttheWinner.cpp (MinMax Algo)
+[PredicttheWinner.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/486_PredicttheWinner.cpp) (MinMax Algo)
 
 ## 4. Graph
 
