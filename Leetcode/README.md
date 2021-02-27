@@ -315,6 +315,10 @@ Single_Number.cpp
 
 778_[SwiminRisingWater.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/778_SwiminRisingWater.cpp)
 
+### Binary search with duplicates
+
+154_[FindMinimuminRotatedSortedArrayII.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/154_FindMinimuminRotatedSortedArrayII.cpp)
+
 ## 17. Stack
 
 735_AsteroidCollision.cpp
