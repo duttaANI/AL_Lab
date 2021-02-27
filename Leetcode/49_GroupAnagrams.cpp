@@ -1,17 +1,18 @@
-// link : https://leetcode.com/problems/group-anagrams/discuss/19200/C%2B%2B-unordered_map-and-counting-sort
 class Solution {
 public:
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
-        vector<vector<string>> ans;
         unordered_map<string, vector<string>> mp;
-        string t;
-        for(string s : strs){
-            t=s;
-            sort(t.begin(),t.end());
-            mp[t].push_back(s);
+        set<string> ss;
+        int n = strs.size();
+        for(int i=0; i<n; ++i){
+            string dup = strs[i];
+            sort(dup.begin(),dup.end());
+            mp[dup].push_back(strs[i]);
+            ss.insert(dup);
         }
-        for(auto m : mp){
-            ans.push_back(m.second);
+        vector<vector<string>> ans;
+        for(auto v : ss){
+            ans.push_back(mp[v]);
         }
         return ans;
     }
