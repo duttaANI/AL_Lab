@@ -1,3 +1,23 @@
+//Two Pointer Approach
+class Solution {
+public:
+    int maxArea(vector<int>& height) {
+        int l=0,r=height.size()-1,ans=0,ar=0;
+        while(l<r){
+            ar = min(height[l],height[r])*(r-l);
+            ans = max({ans,ar});
+            if( height[l]<height[r] ){
+                ++l;
+            }
+            else{
+                --r;
+            }
+        }
+        return ans;
+    }
+};
+
+
 // link: https://leetcode.com/problems/container-with-most-water/solution/
 #include <iostream>
 #include <bits/stdc++.h> 
