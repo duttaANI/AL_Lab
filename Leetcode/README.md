@@ -54,6 +54,8 @@ Coin_Change.cpp
 
 1770_[MaximumScorefromPerformingMultiplicationOperations.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/1770_MaximumScorefromPerformingMultiplicationOperations.cpp)
 
+1411_[NumberofWaystoPaint 3xA Grid.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/1411_NumberofWaystoPaintN%C3%973%20Grid.cpp)
+
 ### Knapsack
 
 #### Unbounded
