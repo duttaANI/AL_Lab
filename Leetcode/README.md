@@ -175,7 +175,7 @@ A disconnected graph  can be bipartite.
 
 ## 6. Two Pointer
 
-(Container_With_Most_Water.cpp)[https://github.com/duttaANI/AL_Lab/edit/master/Leetcode/Container_With_Most_Water.cpp]
+[Container_With_Most_Water.cpp](https://github.com/duttaANI/AL_Lab/edit/master/Leetcode/Container_With_Most_Water.cpp)
 
 Shortest_Unsorted_Continuous_Subarray.cpp
 
