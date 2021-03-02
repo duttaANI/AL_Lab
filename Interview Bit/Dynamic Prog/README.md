@@ -1,1 +1,23 @@
-#
+## Knapsack
+
+[0-1 Knapsack.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Interview%20Bit/Dynamic%20Prog/0-1%20Knapsack.cpp)
+
+[Flip Array.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Interview%20Bit/Dynamic%20Prog/Flip%20Array.cpp)
+
+[Subset Sum Problem!.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Interview%20Bit/Dynamic%20Prog/Subset%20Sum%20Problem!.cpp)
+
+[Minimum Difference Subsets!.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Interview%20Bit/Dynamic%20Prog/Minimum%20Difference%20Subsets!.cpp)
+
+## Binary lifting [DP with bitmask]
+
+[Max edge queries!.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Interview%20Bit/Dynamic%20Prog/Max%20edge%20queries!.cpp)
+
+## Regular expression
+
+[Regular Expression Match.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Interview%20Bit/Dynamic%20Prog/Regular%20Expression%20Match.cpp)
+
+[Regular Expression II.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Interview%20Bit/Dynamic%20Prog/Regular%20Expression%20II.cpp)
+
+## Min Max algo
+
+[Coins in a Line.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Interview%20Bit/Dynamic%20Prog/Coins%20in%20a%20Line.cpp)
