@@ -6,6 +6,10 @@
 
 [1433F_ZeroRemainderSum.cpp](https://github.com/duttaANI/AL_Lab/blob/master/codeforces/1433F_ZeroRemainderSum.cpp)
 
+### Push DP
+
+[830A_OfficeKeys.cpp](https://github.com/duttaANI/AL_Lab/blob/master/codeforces/Mar2021/830A_Office_Keys.cpp)
+
 ### Longest Common subsequence
 
 [1447D_CatchingCheaters.cpp](https://github.com/duttaANI/AL_Lab/blob/master/codeforces/Nov2020/1447D_CatchingCheaters.cpp)
