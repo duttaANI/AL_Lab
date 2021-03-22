@@ -340,6 +340,8 @@ Single_Number.cpp
 1556_[ThousandSeparator.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/1556_ThousandSeparator.cpp)
 
 680_[ValidPalindromeII.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/680_ValidPalindromeII.cpp)
+
+1763_[LongestNiceSubstring.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/1763_LongestNiceSubstring.cpp)
   
 ## 20. Matrix Exponentiation
 
