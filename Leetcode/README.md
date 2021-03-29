@@ -376,3 +376,7 @@ Single_Number.cpp
 ## Priority Queue
 
 1792_[MaximumAveragePassRatio.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/1792_MaximumAveragePassRatio.cpp)
+
+## Linked List
+
+234_[PalindromeLinkedList.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/234_PalindromeLinkedList.cpp)
