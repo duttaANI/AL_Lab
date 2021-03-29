@@ -233,6 +233,8 @@ Top_K_Frequent_Elements.cpp (Min Heap)
 
 56_[MergeIntervals.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/56_MergeIntervals.cpp)
 
+148_[SortList.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/148_SortList.cpp)
+
 75_SortColors.cpp
 
 1029_TwoCityScheduling.cpp
@@ -353,11 +355,15 @@ Single_Number.cpp
 
 18_[4Sum.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/18_4Sum.cpp) (learnt to use vector< vector >) (Generalized i.e. contains code for 5,6..n Sum)
 
-## 22. Divide and Conquer
+## 22. Divide and Conquer 
 
 23_[MergekSortedLists.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/23_MergekSortedLists.cpp) (iterative Div and Conquer)
 
 315_[CountofSmallerNumbersAfterSelf.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/315_CountofSmallerNumbersAfterSelf.cpp)
+
+### Merge Sort
+
+148_[SortList.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/148_SortList.cpp)
 
 ## 22. Sliding Window
 
