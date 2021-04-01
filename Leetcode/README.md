@@ -344,6 +344,10 @@ Single_Number.cpp
 680_[ValidPalindromeII.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/680_ValidPalindromeII.cpp)
 
 1763_[LongestNiceSubstring.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/1763_LongestNiceSubstring.cpp)
+
+### erase in string
+
+1805_[NumberofDifferentIntegersinaString.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/1805_NumberofDifferentIntegersinaString.cpp)
   
 ## 20. Matrix Exponentiation
 
