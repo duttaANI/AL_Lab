@@ -293,6 +293,8 @@ Single_Number.cpp
 
 343_[IntegerBreak.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/343_IntegerBreak.cpp)
 
+1806_[MinimumNumberofOperationstoReinitializeaPermutation.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/1806_MinimumNumberofOperationstoReinitializeaPermutation.cpp)
+
 ## 15. Hashing
 
 706_DesignHashMap.cpp (HashMap)
