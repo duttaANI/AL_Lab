@@ -386,3 +386,7 @@ Single_Number.cpp
 ## Linked List
 
 234_[PalindromeLinkedList.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/234_PalindromeLinkedList.cpp)
+
+## STL C++ search
+
+1764_[FormArraybyConcatenatingSubarraysofAnotherArray.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/1764_FormArraybyConcatenatingSubarraysofAnotherArray.cpp)
