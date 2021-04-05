@@ -1,27 +1,33 @@
-// link : https://leetcode.com/problems/all-paths-from-source-to-target/discuss/118647/C%2B%2B-DFS-Recursive-Easy-to-Understand
 class Solution {
 public:
     
-    void dfs(vector<vector<int>>& graph,vector<vector<int>>& ans, vector<int> path, int src ) {
-        if ( src == graph.size()-1 )
-        {
-            path.push_back(src);
-            ans.push_back(path);
+    vector< vector<int> > paths;
+    
+    void dfs(int x, vector<int> & cur, int trgt, vector<vector<int>>& graph, vector<int> & vis ){
+        if(  x==trgt ){
+            cur.push_back(x);
+            paths.push_back( cur );
+            cur.pop_back();
+            return ;
         }
-        else {
-            path.push_back(src);
-            for ( auto n : graph[src] )
-                dfs (graph, ans, path, n);
-            //path.pop_back();
+        vis[x] = 1;
+        cur.push_back( x );
+        
+        for(int v : graph[x]){
+            if( !vis[v] ){
+                dfs( v, cur, trgt, graph, vis );
+            }
         }
-           
+        
+        vis[x] = 0;
+        cur.pop_back();
     }
     
     vector<vector<int>> allPathsSourceTarget(vector<vector<int>>& graph) {
-        vector<vector<int>> ans;   vector<int> path;
-        
-        dfs(graph, ans, path, 0);
-        
-        return ans;
+        int trgt = graph.size() - 1;
+        vector<int> cur, vis(graph.size(),0);
+        int src = 0;
+        dfs( 0, cur, trgt, graph , vis);
+        return paths;
     }
 };
