@@ -1,4 +1,4 @@
-// my
+// my soln
 
 class Solution {
 public:
