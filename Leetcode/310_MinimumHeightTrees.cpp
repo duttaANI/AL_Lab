@@ -1,3 +1,56 @@
+// my
+
+class Solution {
+public:
+    static const int mxN = 3e4;
+    vector<int> adj[mxN];
+    vector<int> findMinHeightTrees(int n, vector<vector<int>>& edges) {
+        if(n==1){
+            return {0};
+        }
+        vector<int> deg(n,0) , vis(n,0);
+        int cnt = n;
+        for( auto e : edges ){
+            deg[e[0]]++;
+            deg[e[1]]++;
+            adj[e[0]].push_back( e[1] );
+            adj[e[1]].push_back( e[0] );
+        }
+        queue<int> q;
+        for( int i=0; i<n; ++i ){
+            if( deg[i]==1 && !vis[i]){
+                q.push(i);
+                vis[i] = 1; 
+            }
+        }
+        int k;
+        while( q.size() && cnt>2 ){
+            k = q.size();
+            for( int i=0; i<k; ++i ){
+                int f = q.front(); q.pop(); --cnt;
+                for( int v : adj[f] ){
+                    deg[v]--;
+                    if( deg[v]<2 && !vis[v] ){
+                        q.push(v);
+                        vis[v] =1;
+                        
+                    }
+                }
+            }
+                
+        }
+        
+        vector<int> ans;
+        while(q.size()){
+            
+            ans.push_back(q.front());
+            q.pop();
+        }
+        return ans;
+    }
+};
+
+// editorial
 class Solution {
 public:
     vector<int> findMinHeightTrees(int n, vector<vector<int>>& edges) {
