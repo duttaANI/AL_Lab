@@ -1,3 +1,86 @@
+//MY
+class Solution {
+public:
+    #define ar array
+    int H,W;
+    int vis[100][100];
+    int dX[4] = {0,1,0,-1};
+    int dY[4] = {1,0,-1,0};
+    
+    int valid(int x,int y){
+        if( x>=0 && y>=0 && x<H && y<W ){
+            return 1;
+        }
+        return 0;
+    }
+    
+    int bfs( int x, int y, vector<vector<int>>& A ){
+        memset(vis,0,sizeof(vis));
+        vis[x][y]=1;
+        queue< ar<int,2> > q,q2;
+        q2.push({ x,y });
+        q.push({ x,y });
+        
+        // fill for multisource bfs
+        while( q2.size() ){
+            ar<int,2> f = q2.front(); q2.pop();
+            // cout << f[0] << " " << f[1] << endl;
+            for(int i=0;i<4;++i){
+                int nx = f[0] + dX[i];
+                int ny = f[1] + dY[i];
+                if( valid(nx,ny) && A[nx][ny]==1 && !vis[nx][ny] ){
+                    
+                    q.push( {nx,ny} );
+                    q2.push({nx,ny});
+                    vis[nx][ny]=1;
+                }
+            }
+        }
+        
+        // expand 
+        int cur = 0;
+        while( q.size() ){
+            int k = q.size();
+            ++cur;
+            // cout << k << " k cur " << cur << endl;
+            for(int i=0;i<k;++i){
+                ar<int,2> f = q.front() ; q.pop() ;
+               
+                for(int i=0;i<4;++i){
+                    int nx = f[0] + dX[i];
+                    int ny = f[1] + dY[i];
+                    if( valid(nx,ny)  && !vis[nx][ny] ){
+                        if( A[nx][ny]==1 ){
+                            return cur-1;
+                        }
+                        q.push( {nx,ny} );
+                        vis[nx][ny]=1;
+                    }
+                }
+            }   
+        }
+        return -1;
+    }
+    
+    
+
+    int shortestBridge(vector<vector<int>>& A) {
+        memset( vis,0, sizeof(vis) );
+        H = A.size();
+        W = A[0].size();
+        for( int i=0;i<H;++i ){
+            for( int j=0;j<W;++j ){
+                if( !vis[i][j] && A[i][j]==1 ){
+                    int ans = bfs( i,j, A );
+                    return ans;
+                }
+            }
+        }
+        return -1;
+    }
+};
+
+
 // Link : https://leetcode.com/problems/shortest-bridge/discuss/189293/C%2B%2B-BFS-Island-Expansion-%2B-UF-Bonus
 // DFS + Flood Fill + Expand like Djikstra
 class Solution {
