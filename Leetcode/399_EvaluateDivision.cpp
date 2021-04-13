@@ -1,3 +1,58 @@
+// my
+
+// link : https://leetcode.com/problems/evaluate-division/discuss/455817/C%2B%2B-DFS-solution
+class Solution {
+public:
+
+    unordered_map< string, vector< pair<string,double>  >  > adj;
+    unordered_map< string, int >vis; // by default if entry is not there o/p is 0
+    unordered_map< string, int >ext;
+    double ans;
+    
+    void dfs( string x ,string dst, double cur  ){
+        vis[x]=1;
+        if(x==dst){
+            ans = cur;
+            return ;
+        }
+        for( pair<string,double> v : adj[x]  ){
+            if( !vis[v.first]  ){
+                dfs( v.first, dst , cur*v.second );
+            }
+        }
+    }
+     
+    vector<double> calcEquation(vector<vector<string>>& equ, vector<double>& val, vector<vector<string>>& qry) {
+        int n = equ.size();
+        vector<double> res;
+        
+        for( int i=0; i<n; ++i ){
+            adj[equ[i][0]].push_back({ equ[i][1],      (double)val[i] });
+            adj[equ[i][1]].push_back({ equ[i][0],  (double)1.0/(double)val[i] });
+            ext[ equ[i][0] ] = 1;
+            ext[ equ[i][1] ] = 1;
+        }
+        
+        int k = qry.size();
+        for( int i=0;i<k;++i ){
+            vis.clear(); 
+            ans = -1.0;
+            string src = qry[i][0],dst = qry[i][1];
+            if( !ext[ src ] || !ext[ dst ]  ){
+                res.push_back( -1.00000 );
+                continue;
+            }
+            vis[ src ] = 1;
+            dfs( src, dst, 1.0 );
+            res.push_back( ans );
+        }
+        
+        return res;
+    }
+};
+
+
+
 // link : https://leetcode.com/problems/evaluate-division/discuss/455817/C%2B%2B-DFS-solution
 class Solution {
 public:
