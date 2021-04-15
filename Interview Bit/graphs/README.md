@@ -47,3 +47,7 @@
 ## Union Find
 
 [Permutation Swaps!.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Interview%20Bit/graphs/Permutation%20Swaps!.cpp)
+
+## Binary Search
+
+[Convert Sorted List to Binary Search Tree.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Interview%20Bit/graphs/Convert%20Sorted%20List%20to%20Binary%20Search%20Tree.cpp)
