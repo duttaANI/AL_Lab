@@ -387,6 +387,8 @@ Single_Number.cpp
 
 ## Priority Queue
 
+1834_[Single-ThreadedCPU.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/1834_Single-ThreadedCPU.cpp)
+
 1792_[MaximumAveragePassRatio.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/1792_MaximumAveragePassRatio.cpp)
 
 ## Linked List
