@@ -8,6 +8,10 @@
 
 [Minimum Difference Subsets!.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Interview%20Bit/Dynamic%20Prog/Minimum%20Difference%20Subsets!.cpp)
 
+### Unbounded knapsack
+
+[Rod Cutting.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Interview%20Bit/Dynamic%20Prog/Rod%20Cutting.cpp)
+
 ## Binary lifting [DP with bitmask]
 
 [Max edge queries!.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Interview%20Bit/Dynamic%20Prog/Max%20edge%20queries!.cpp)
