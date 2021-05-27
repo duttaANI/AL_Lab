@@ -35,3 +35,5 @@
 ## Longest Common Subsequence
 
 [Longest Common Subsequence.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Interview%20Bit/Dynamic%20Prog/Longest%20Common%20Subsequence.cpp)
+
+[Longest Palindromic Subsequence.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Interview%20Bit/Dynamic%20Prog/Longest%20Palindromic%20Subsequence.cpp)
