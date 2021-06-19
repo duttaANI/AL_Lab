@@ -389,20 +389,20 @@ Single_Number.cpp
 
 41_[FirstMissingPositive.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/41_FirstMissingPositive.cpp)
 
-## Priority Queue
+## 24. Priority Queue
 
 1834_[Single-ThreadedCPU.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/1834_Single-ThreadedCPU.cpp)
 
 1792_[MaximumAveragePassRatio.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/1792_MaximumAveragePassRatio.cpp)
 
-## Linked List
+## 25. Linked List
 
 234_[PalindromeLinkedList.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/234_PalindromeLinkedList.cpp)
 
-## STL C++ search
+## 26. STL C++ search
 
 1764_[FormArraybyConcatenatingSubarraysofAnotherArray.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/1764_FormArraybyConcatenatingSubarraysofAnotherArray.cpp)
   
-## 25. Binary Lifting
+## 27. Binary Lifting
   
 1483_[KthAncestorofaTreeNode.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/1483_KthAncestorofaTreeNode.cpp)
