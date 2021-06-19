@@ -402,3 +402,7 @@ Single_Number.cpp
 ## STL C++ search
 
 1764_[FormArraybyConcatenatingSubarraysofAnotherArray.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/1764_FormArraybyConcatenatingSubarraysofAnotherArray.cpp)
+  
+## 25. Binary Lifting
+  
+1483_[KthAncestorofaTreeNode.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/1483_KthAncestorofaTreeNode.cpp)
