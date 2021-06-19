@@ -231,6 +231,8 @@ Find_the_Duplicate_Number.cpp
 
 337_[HouseRobberIII.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/cpp_STL_basics/337_HouseRobberIII.cpp)
 
+652_[FindDuplicateSubtrees.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/652_FindDuplicateSubtrees.cpp)
+
 ## 10. Heap
 
 Top_K_Frequent_Elements.cpp (Min Heap)
