@@ -33,3 +33,29 @@ int Solution::adjacent(vector<vector<int> > &A) {
     
     return mx;
 }
+
+
+
+// Better
+
+int Solution::adjacent(vector<vector<int> > &A) {
+    int N = A[0].size();
+    
+    if( N == 0 )return 0 ; 
+    if( N == 1 )return max( A[1][0] , A[0][0] );
+    
+    int t[N];
+    memset( t , 0 , sizeof t );
+    
+    t[N-1] = max( A[0][N-1] , A[1][N-1] ) ; 
+    
+    for( int i = N-2 ; i >= 0 ; i-- )
+    {
+        if( i + 2 >= N )
+        t[i] = max(  t[i+1] , max( A[1][i] , A[0][i])  );
+        
+        else 
+        t[i] = max( t[i+1] , max( A[1][i] , A[0][i] ) + t[i+2] );
+    }
+    return t[0] ;
+}
