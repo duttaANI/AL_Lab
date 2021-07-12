@@ -1,16 +1,18 @@
 vector<int> Solution::solve(vector<vector<int> > &A) {
-    priority_queue<int, vector<int>, greater<int>> p;
-    for(int i = 0; i<A.size(); i++){
-        for(int j = 0; j<A[i].size(); j++){
-            p.push(A[i][j]);
+    vector<int> ans;
+    int k = A.size();
+    int n = A[0].size();
+    priority_queue< int, vector<int>, greater<int> > pq;
+    for(int i=0;i<k;++i){
+        for(int j=0;j<n;++j){
+            pq.push(A[i][j]);
         }
     }
     
-    vector<int> res;
-    while(!p.empty()){
-        res.push_back(p.top());
-        p.pop();
+    while(pq.size()){
+        int f = pq.top() ; pq.pop();
+        ans.push_back(f);
     }
     
-    return res;
+    return ans;
 }
