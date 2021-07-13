@@ -54,5 +54,36 @@ int Solution::solve(int A, vector<vector<int> > &B) {
     return ans;
 }
 
+// My
 
 
+const int mxN =1e5;
+int ans = 0;
+
+int help( int cur , vector<int> adj[mxN], int par ){
+    int nodes = 1;
+    
+    for( int v : adj[cur] ){
+        if( v==par  ) continue;
+        int sz = help ( v,adj,cur );
+        if( sz%2==0 ) ++ans;
+        else{
+            nodes += sz;
+        }
+    }
+    
+    return nodes;
+}
+
+int Solution::solve(int A, vector<vector<int> > &B) {
+    ans = 0;
+    vector<int> adj[mxN];
+    for( auto e : B ){
+        adj[ e[0]-1 ].push_back( e[1]-1 );
+        adj[ e[1]-1 ].push_back( e[0]-1 );
+    }
+    
+    help(0,adj, -1);
+    
+    return ans;
+}
