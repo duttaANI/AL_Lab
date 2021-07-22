@@ -1,3 +1,4 @@
+// even if frequency of elements is zero in map but it is counted in map.size() if before its frequency was non zero , so we have to map.erase() to remove such elements from size of map
 vector<int> Solution::dNums(vector<int> &A, int B) {
     
     if( B > A.size() ){
