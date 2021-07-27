@@ -1,3 +1,37 @@
+// editorial
+
+bool solve(vector<string> &a,string s,int ind,int i,int j)
+{
+    if(ind ==s.size())
+    {
+        
+        return true;
+    }
+    if(i<0 || i>=a.size() || j<0 || j>=a[i].size() || a[i][j]!=s[ind])
+    return false;
+    if(solve(a,s,ind+1,i+1,j) || solve(a,s,ind+1,i-1,j) ||solve(a,s,ind+1,i,j+1)|| solve(a,s,ind+1,i,j-1))
+   return true;
+   return false;
+
+}
+
+
+int Solution::exist(vector<string> &a, string s) {
+    int f=0;
+    for(int i=0;i<a.size();i++)
+    {
+        for(int j=0;j<a[i].size();j++)
+        {   if(s[0]==a[i][j])
+           {if(solve(a,s,0,i,j))
+           return true;
+        }}
+    }
+    return false;;
+}
+
+
+
+
 // DFS + memoization
 
 
