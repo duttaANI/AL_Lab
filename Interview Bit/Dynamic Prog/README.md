@@ -32,6 +32,8 @@
 
 [Longest Increasing Subsequence.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Interview%20Bit/Dynamic%20Prog/Longest%20Increasing%20Subsequence.cpp)
 
+[Length of Longest Subsequence.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Interview%20Bit/Dynamic%20Prog/Length%20of%20Longest%20Subsequence.cpp)
+
 ## Longest Common Subsequence
 
 [Longest Common Subsequence.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Interview%20Bit/Dynamic%20Prog/Longest%20Common%20Subsequence.cpp)
