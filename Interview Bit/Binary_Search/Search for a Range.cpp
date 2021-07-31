@@ -1,34 +1,36 @@
 vector<int> Solution::searchRange(const vector<int> &A, int B) {
-    int l =0;
-    int r =A.size()-1;
-    // cout << r << endl;
-    while( l<r ){
-        int mid = l + (r-l)/2;
-        if( A[mid]>B ){
-            r = mid-1;
+    // for expansion once ele found
+    int gol , gor;
+    int n = A.size();
+    
+    // for bin s
+    int l =0 , r = n-1, mid;
+    while(l<=r){
+        mid = l + (r-l)/2;
+        if( A[mid] == B  ){
+            break;
         }
-        else if ( A[mid]<B ){
-            l = mid+1;
+        else if (  A[mid] < B ){
+            l=mid+1;
         }
         else{
-            int temp = mid;
-            while( A[temp]==B ){
-                --temp;
-            }
-            l = temp+1;
-            temp = mid;
-            while( temp<A.size() && A[temp]==B  ){
-                ++temp;
-            }
-            if(temp==A.size()-1) 
-                r = A.size()-1;
-            else
-                r = temp-1;
-            return {l,r};
+            r = mid-1;
         }
     }
-    if( A[l]!=B || A[r]!=B ){
+    
+    if( A[mid]!=B  ){
         return {-1,-1};
     }
-    return {l,r};
+    
+    // expand
+    gol = mid,gor=mid;
+    while( gol>=0 && A[gol]==B ){
+        --gol;
+    }
+    
+    while(  gor<n && A[gor]==B ){
+        ++gor;
+    }
+    
+    return { gol+1,gor-1 };
 }
