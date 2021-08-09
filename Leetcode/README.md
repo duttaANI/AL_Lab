@@ -80,6 +80,10 @@ Coin_Change.cpp
 
 1143_[LongestCommonSubsequence.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/1143_LongestCommonSubsequence.cpp)
 
+### DP with bitmask
+
+698_[PartitiontoKEqualSumSubsets.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/698_PartitiontoKEqualSumSubsets.cpp)
+
 ## 2. Kadanes's Algo
 
 [918_MaximumSumCircularSubarray.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/918_MaximumSumCircularSubarray.cpp)
