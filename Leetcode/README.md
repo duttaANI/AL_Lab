@@ -416,3 +416,7 @@ Single_Number.cpp
 ## 27. Binary Lifting
   
 1483_[KthAncestorofaTreeNode.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/1483_KthAncestorofaTreeNode.cpp)
+  
+## 28. TRIE
+  
+211_[DesignAddandSearchWordsDataStructure.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/211_DesignAddandSearchWordsDataStructure.cpp)
