@@ -58,6 +58,8 @@ Coin_Change.cpp
 
 188_[BestTimetoBuyandSellStockIV.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/188.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20IV.cpp)
 
+983_[MinimumCostForTickets.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/983_MinimumCostForTickets.cpp)
+
 ### Knapsack
 
 #### Unbounded
