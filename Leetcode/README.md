@@ -273,6 +273,8 @@ Top_K_Frequent_Elements.cpp (Min Heap)
 
 435_[Non-overlappingIntervals.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/435_Non-overlappingIntervals.cpp)
 
+1578_[MinimumDeletionCosttoAvoidRepeatingLetters.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/1578_MinimumDeletionCosttoAvoidRepeatingLetters.cpp)
+
 ## 13. Backtracking
 
 526_BeautifulArrangement.cpp
