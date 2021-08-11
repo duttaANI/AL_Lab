@@ -343,6 +343,8 @@ Single_Number.cpp
 
 778_[SwiminRisingWater.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/778_SwiminRisingWater.cpp)
 
+1283_[FindtheSmallestDivisorGivenaThreshold.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/1283_FindtheSmallestDivisorGivenaThreshold.cpp)
+
 ### Binary search with duplicates
 
 154_[FindMinimuminRotatedSortedArrayII.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/154_FindMinimuminRotatedSortedArrayII.cpp)
