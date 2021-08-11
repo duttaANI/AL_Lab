@@ -379,6 +379,10 @@ Single_Number.cpp
 
 1805_[NumberofDifferentIntegersinaString.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/1805_NumberofDifferentIntegersinaString.cpp)
   
+### find in string
+  
+1910_[RemoveAllOccurrencesofaSubstring.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/1910_RemoveAllOccurrencesofaSubstring.cpp)
+  
 ## 20. Matrix Exponentiation
 
 509_[FibonacciNumber.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/509_FibonacciNumber.cpp)
