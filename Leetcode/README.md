@@ -60,6 +60,8 @@ Coin_Change.cpp
 
 983_[MinimumCostForTickets.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/983_MinimumCostForTickets.cpp)
 
+1043_[PartitionArrayforMaximumSum.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/1043_PartitionArrayforMaximumSum.cpp)
+
 ### Knapsack
 
 #### Unbounded
