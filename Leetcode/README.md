@@ -145,6 +145,8 @@ A disconnected graph  can be bipartite.
 
 131_[PalindromePartitioning.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/131_PalindromePartitioning.cpp) (DFS on string)
 
+2014_[LongestSubsequenceRepeatedkTimes.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/2014_LongestSubsequenceRepeatedkTimes.cpp)
+
 ### Bidirectional BFS
 
 127_[WordLadder.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/127_WordLadder.cpp)
