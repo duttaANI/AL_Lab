@@ -64,6 +64,8 @@ Coin_Change.cpp
 
 1043_[PartitionArrayforMaximumSum.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/1043_PartitionArrayforMaximumSum.cpp)
 
+2019_[TheScoreofStudentsSolvingMathExpression.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/2019_TheScoreofStudentsSolvingMathExpression.cpp)
+
 ### Knapsack
 
 #### Unbounded
