@@ -251,6 +251,8 @@ Find_the_Duplicate_Number.cpp
 
 652_[FindDuplicateSubtrees.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/652_FindDuplicateSubtrees.cpp)
 
+572_[SubtreeofAnotherTree.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/572_SubtreeofAnotherTree.cpp)
+
 ## 10. Heap
 
 Top_K_Frequent_Elements.cpp (Min Heap)
