@@ -331,6 +331,8 @@ Single_Number.cpp
 
 1806_[MinimumNumberofOperationstoReinitializeaPermutation.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/1806_MinimumNumberofOperationstoReinitializeaPermutation.cpp)
 
+453_[MinimumMovestoEqualArrayElements.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/453_MinimumMovestoEqualArrayElements.cpp)
+
 ## 15. Hashing
 
 706_DesignHashMap.cpp (HashMap)
