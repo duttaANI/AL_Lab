@@ -349,6 +349,8 @@ Single_Number.cpp
 
 1396_[DesignUndergroundSystem.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/1396_DesignUndergroundSystem.cpp)
 
+532_[K-diffPairsinanArray.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/532_K-diffPairsinanArray.cpp)
+
 ## 16. Binary Search
 
 [Median_of_Two_Sorted_Arrays.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/Median_of_Two_Sorted_Arrays.cpp)
