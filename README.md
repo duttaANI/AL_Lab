@@ -2,6 +2,7 @@
 
 when we convert recursive approach to iterative approach then we use stack
 
+we can compare two vectors in c++ , eg vector<int> v1 ,v2 ; if(v1==v2) do something ..
 ```
 CSES problem Set
    |-- CountingRooms.cpp
