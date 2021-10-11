@@ -1,3 +1,30 @@
+// My approach
+
+class Solution {
+public:
+    vector<vector<int>> ans;
+    
+    void solve(int s, vector<int>& cur, vector<int>& nums ){
+    
+        ans.push_back(cur);
+        
+        
+        for(int i=s;i<nums.size();++i){
+            cur.push_back(nums[i]);
+            solve(i+1,cur,nums);
+            cur.pop_back();
+        }
+    }
+    
+    vector<vector<int>> subsets(vector<int>& nums) {
+        vector<int> cur;
+        solve( 0,cur,nums );
+        return ans;
+    }
+};
+
+
+
 class Solution {
 public:
     
