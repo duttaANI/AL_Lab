@@ -297,6 +297,8 @@ Top_K_Frequent_Elements.cpp (Min Heap)
 
 679_[24Game.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/679_24Game.cpp)
 
+47_[PermutationsII.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/47_PermutationsII.cpp)
+
 ## 14. Math / Logic / Bit-Manipulation
 
 Single_Number.cpp
