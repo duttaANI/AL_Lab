@@ -40,6 +40,8 @@ Coin_Change.cpp
 
 518_CoinChange2.cpp
 
+413_[ArithmeticSlices.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/413_ArithmeticSlices.cpp)
+
 931_[MinimumFallingPathSum.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/931_MinimumFallingPathSum.cpp) (SAP, commvault , samsung)
 
 72_[EditDistance.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/72_EditDistance.cpp)
