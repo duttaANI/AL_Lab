@@ -343,6 +343,8 @@ Single_Number.cpp
 
 453_[MinimumMovestoEqualArrayElements.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/453_MinimumMovestoEqualArrayElements.cpp)
 
+201_[BitwiseANDofNumbersRange.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/201_BitwiseANDofNumbersRange.cpp)
+
 ## 15. Hashing
 
 706_DesignHashMap.cpp (HashMap)
