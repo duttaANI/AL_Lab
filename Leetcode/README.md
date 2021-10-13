@@ -40,6 +40,8 @@ Coin_Change.cpp
 
 518_CoinChange2.cpp
 
+673_[NumberofLongestIncreasingSubsequence.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/673_NumberofLongestIncreasingSubsequence.cpp)
+
 91_[DecodeWays.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/91_DecodeWays.cpp)
 
 413_[ArithmeticSlices.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/413_ArithmeticSlices.cpp)
