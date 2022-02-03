@@ -449,6 +449,10 @@ Single_Number.cpp
   
 438_[FindAllAnagramsinaString.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/438_FindAllAnagramsinaString.cpp)
 
+### Rolling hash
+
+2156_[FindSubstringWithGivenHashValue.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/2156_FindSubstringWithGivenHashValue.cpp)
+
 ## 23. Array
 
 41_[FirstMissingPositive.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/41_FirstMissingPositive.cpp)
@@ -484,3 +488,5 @@ Single_Number.cpp
 ## 29. fisher-yates-shuffle
 
 384_[ShuffleanArray.cpp](https://github.com/duttaANI/AL_Lab/blob/master/Leetcode/384_ShuffleanArray.cpp)
+
+
