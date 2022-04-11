@@ -1,3 +1,43 @@
+// My 
+int n;
+unordered_map<string,int> mp;
+
+void solve(int s, int cur_sum, int B, vector<int> temp, vector< vector<int> >& ans, const vector<int>& A){
+    
+    // cout << cur_sum << " cur_sum \n";
+    if( cur_sum == B ){
+        string str = "";
+        for(int i=0;i<temp.size();++i){
+            str += to_string(temp[i]);
+        }
+        // cout << str << " str \n";
+        if(mp.find(str)==mp.end()){
+            ans.push_back(temp);
+            mp[str] = 1;
+        }
+    }
+    if(s==n){
+        return ;
+    }
+    for(int i = s ; i<n; ++i){
+        temp.push_back(A[i]);
+        if(cur_sum+A[i]<=B)
+            solve(i+1,cur_sum+A[i],B,temp,ans,A);
+        temp.pop_back();
+    }
+}
+
+vector<vector<int> > Solution::combinationSum(vector<int> &A, int B) {
+    sort(A.begin(),A.end());
+    vector< vector<int> > ans;
+    n = A.size();
+    
+    solve(0,0,B,{},ans,A);
+
+    return ans;
+}
+
+
 void incExcl(vector<vector<int>>& ans, vector<int>& temp, int start, int target, vector<int>& candidates )  {
         
         if( target<0 ){
