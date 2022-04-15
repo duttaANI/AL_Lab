@@ -14,3 +14,90 @@ int Solution::solve(const vector<int> &arr) {
     }
     return res;
 }
+
+
+// Alternate 
+
+int Solution::solve(const vector<int> &A) {
+    int n = A.size();
+
+	if (n < 3) return n;
+
+	vector<vector<int> > dp(n, vector<int>(n, -1));
+
+	map<int, int> pos;
+
+	for (int i = 0; i < n; i++) {
+
+		for (int j = i + 1; j < n; j++) {
+
+			dp[i][j] = 2;
+
+			int dif = A[j] - A[i];
+
+			int need = 2 * A[i] - A[j];
+
+			if (pos.count(need) == 0) continue;
+
+			dp[i][j] = max(dp[i][j], dp[pos[need]][i] + 1);
+
+		}
+		pos[A[i]] = i;
+
+	}
+
+	int ans = 2;
+
+	for (int i = 0; i < n; i++) {
+
+		for (int j = i + 1; j < n; j++) {
+
+			ans = max(ans, dp[i][j]);
+
+		}
+
+	}
+
+	return ans;
+}
+
+
+// Numbers are too large in input A , memory limit exceeded 
+// #define ll long long 
+// const ll mxN = 1e9;
+// int Solution::solve(const vector<int> &A) {
+//     ll res = 2;
+//     int n = A.size();
+//     if(n==1) return 1;
+//     vector<vector<ll>> dp(n, vector<ll>(100000, 0));
+//     for (int i = 0; i < n; ++i)
+//         for (int j = i + 1; j < n; ++j)  {
+//             ll d = A[j] - A[i] + mxN;
+//             dp[j][d] = max((ll)2, dp[i][d] + (ll)1 );
+//             res = max(res, dp[j][d]);
+//         }
+//     return (int)res;
+// }
+
+// Below O(n^3) TLE
+
+// int Solution::solve(const vector<int> &A) {
+//     int n = A.size();
+//     if(n==1) return 1;
+//     int ans=0;
+//     for (int i=0;i<=n-1;++i){
+//         for(int j=i+1;j<=n-1;++j){
+//             int cur = 2;
+//             int lst = A[j];
+//             int dif = A[j] - A[i];
+//             for (int k=j+1;k<=n-1;++k){
+//                 if (A[k] == lst + dif){
+//                         cur++;
+//                         lst = A[k];
+//                 }
+//             }  
+//             ans = max(ans, cur);   
+//         }
+//     }
+//     return ans;
+// }
