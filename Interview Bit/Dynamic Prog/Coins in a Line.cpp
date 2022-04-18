@@ -1,3 +1,24 @@
+int dp[505][505][2];
+int rec(int l,int r, int turn,vector<int> &A){
+  if(l>r)return 0;
+  
+  if(dp[l][r][turn]!=-1)
+      return dp[l][r][turn];
+  if(l==r) return dp[l][r][turn] =turn?0:A[l];
+  if(turn==0){
+      return dp[l][r][turn]= max(rec(l+1,r,!turn,A)+A[l],rec(l,r-1,!turn,A)+A[r]);
+  }
+  return dp[l][r][turn]= min(rec(l+1,r,!turn,A),rec(l,r-1,!turn,A));
+
+}
+
+int Solution::maxcoin(vector<int> &A) {
+    memset(dp,-1,sizeof dp);
+    return rec(0,A.size()-1,0,A);
+}
+
+
+// Alternate
 const int mxN = 5e3;
 
 
